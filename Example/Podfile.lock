@@ -1,0 +1,36 @@
+PODS:
+  - ADShare (0.0.1):
+    - DateTools
+    - Masonry
+  - DateTools (2.0.0)
+  - Masonry (1.1.0)
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
+
+DEPENDENCIES:
+  - ADShare (from `../`)
+  - XAspect
+
+SPEC REPOS:
+  trunk:
+    - DateTools
+    - Masonry
+    - XAspect
+
+EXTERNAL SOURCES:
+  ADShare:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ADShare: c5bb7e5a3840543ca1c91c4086f66b8d0eb02793
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
+
+PODFILE CHECKSUM: 1458c4193c7e3722f4f6f75e3d071dec928ac6b2
+
+COCOAPODS: 1.11.3
